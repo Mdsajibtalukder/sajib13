@@ -1,0 +1,203 @@
+.cont{
+    width: 1200px;
+    margin: 0 auto;
+}
+.header{
+    width: 100%;
+    /* margin: 0 auto; */
+    height: 100px;
+    background: aqua;
+}
+.logo{
+    padding: 25px;
+    float: left;
+}
+.logo h3{
+    float: right;
+    padding-left: 10px;
+}
+.logo img{
+    width: 50px;
+    height: 50px;
+}
+.menu{
+    float: right;
+    line-height: 70px;
+}
+.menu ul{
+    list-style: none;
+    
+}
+.menu ul li{
+    display: inline-block;
+}
+.menu ul li a{
+    text-decoration: none;
+    padding-right: 20px;
+    font-size: 20px;
+    color: red;
+}
+.menu ul li a:hover{
+    background: green;
+    padding: 10px;
+    color: white;
+}
+/* Slider Part Start */
+.slider{
+    width: 1200px;
+    margin: 0 auto;
+    background: linear-gradient(rgba(50, 20, 20, 0.8),rgba(4, 46, 4,.8)), url(./images/bg1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+}
+.slider h1{
+position: absolute;
+top: 30%;
+left: 30%;
+}
+.slider p{
+position: absolute;
+top: 40%;
+left: 40%;
+text-align: center;
+}
+.slider a{
+position: absolute;
+top: 50%;
+left: 45%;
+text-align: center;
+color: rgb(80, 7, 237);
+text-decoration: none;
+border: 1px solid tomato;
+padding: 15px;
+background: aqua;
+border-radius: 30px;
+}
+.slider a:hover{
+    background: rgb(40, 247, 54);
+}
+/* Slider Part End */
+/*hero part start*/
+.hero{
+    width: 1200px;
+    margin: 0 auto;
+}
+ .service-style{
+    padding: 15px;
+    text-align: center;
+}
+span{
+    color: tomato;
+}
+.services-box{
+
+}
+.services-box .card img{
+    width: 50px;
+    height: 50px;
+    border: 2px solid tomato;
+    border-radius: 50%;
+}
+.services-box{
+    padding: 20px;
+    background: pink;
+    text-align: center;
+}
+.services-box{
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr 1fr;
+    gap: 10px;
+
+}
+.card{
+ background-color: aqua;
+ height: 230px;
+}
+.card a{
+    text-decoration: none;
+    padding: 10px;
+    border: 1px solid tomato;
+    border-radius: 20px;
+}
+/* Hero part end*/
+
+/*footer part start*/
+footer{
+    width: 1200px;
+    margin: 40px auto;
+}
+.footer-card img{
+    word-wrap: 30px;
+    height: 30px;
+}
+.footer-card{
+    background-color: rgb(4, 173, 252);
+    padding: 20px;
+}
+.foter-main{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(33%,auto)) ;
+    gap: 0.3%;
+  
+
+}
+.social{
+    display: grid;
+    grid-template-rows:repeat(auto-fit,minmax(15%,auto)) ;
+
+
+}
+.social a{
+    text-decoration: none;
+    font-size: 20px;
+    color: blue;
+    position: relative;
+    left: 100px;
+}
+.social img{
+    position: relative;
+    top: 5px;
+}
+.social h2{
+    text-align: center;
+    color: tomato;
+}
+.foter-bottom{
+    width: 1000px;
+    margin: 0 auto;
+    background-color: rgb(7, 135, 248);
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+}
+.box img{
+    border: 1px solid tomato;
+    padding: 5px;
+
+}
+   
+/*footer part end*/
+/*Animated part start*/
+.animate {
+ animation: 7s mov linear infinite;
+ position: relative;
+
+ }
+ @keyframes mov{
+    /* from{ background-color:aqua}
+    to{background-color: chartreuse} */
+/* 
+    0%   {background-color: red;}
+  25%  {background-color: yellow;}
+  50%  {background-color: blue;}
+  100% {background-color: green;} */
+
+  0%   {background-color:red; left:0px; top:0px;}
+  25%  {background-color:yellow; left:100%; top:0px;}
+  50%  {background-color:blue; left:100%; top:200px;}
+  75%  {background-color:green; left:0px; top:200px;}
+  100% {background-color:red; left:0px; top:0px;}
+ }
+/* Animated part End*/
+
